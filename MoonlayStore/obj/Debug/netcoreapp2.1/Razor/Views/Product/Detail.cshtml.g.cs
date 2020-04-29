@@ -226,7 +226,7 @@ WriteAttributeValue("", 1862, Html.DisplayFor(model => model.full_link), 1862, 4
             WriteLiteral("</a>\r\n            \r\n        </div>\r\n\r\n    </div>\r\n\r\n\r\n   \r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(2042, 30, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f828e42097c34a01ab0b3fb67c4be3e7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73ab120643d64dd1b131d43957793b2e", async() => {
                 BeginContext(2064, 4, true);
                 WriteLiteral("Back");
                 EndContext();
