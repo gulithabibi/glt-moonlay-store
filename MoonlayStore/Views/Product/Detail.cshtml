@@ -7,49 +7,53 @@
 
 @*<h2>Detail</h2>*@
 <br />
-<div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="thumbnail" id="imgTag">
-                <img src="@Html.DisplayFor(model=>model.images[0])" alt="...">
-            </div>
-            <div class="row">
-                @foreach (var img in Model.images)
-                {
-                   var i = 0;
-                <div class="col-lg-2">
-                    <div class="thumbnail over" data-url="@img" onclick="img_selected(this)"><img src="@Html.DisplayFor(modelItem=>img)" alt="..." width="50"></div>
+@if (Model != null)
+{
+    <div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="thumbnail" id="imgTag">
+                    <img src="@Html.DisplayFor(model => model.images[0])" alt="...">
                 </div>
-                    i++;
-                }
+                <div class="row">
+                    @foreach (var img in Model.images)
+                    {
+                        var i = 0;
+                        <div class="col-lg-2">
+                            <div class="thumbnail over" data-url="@img" onclick="img_selected(this)"><img src="@Html.DisplayFor(modelItem => img)" alt="..." width="50"></div>
+                        </div>
+                        i++;
+                    }
+                </div>
             </div>
+            <div class="col-md-6">
+                <h4>@Html.DisplayFor(model => model.title)</h4>
+                <span class="label label-success">by @Html.DisplayFor(model => model.brand)</span> |
+                <span class="label label-warning">@Html.DisplayFor(model => model.reviews.stars) <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span> |
+                <span class="label label-info">@String.Format("{0:n0}", @Convert.ToInt32(Model.reviews.total_reviews))  ratings</span>
+
+                <br /><br />
+
+                <h4>
+                    @Html.DisplayFor(model => model.prices.currency)
+                    <span style="text-decoration-line:line-through">@Html.DisplayFor(model => model.prices.previous_price)</span>
+                    <span style="color:red">@Html.DisplayFor(model => model.prices.current_price)</span>
+                    <span class="label label-default">@Html.DisplayFor(model => model.category)</span>
+                </h4>
+
+                @Html.Raw(Model.description.Replace("\n", "<br/><br/>"))
+
+                <a href="@Html.DisplayFor(model => model.full_link)" target="_blank">@Html.DisplayFor(model => model.full_link)</a>
+
+            </div>
+
         </div>
-        <div class="col-md-6">
-            <h4>@Html.DisplayFor(model => model.title)</h4>
-            <span class="label label-success">by @Html.DisplayFor(model => model.brand)</span> |
-            <span class="label label-warning">@Html.DisplayFor(model => model.reviews.stars) <span class="glyphicon glyphicon-star" aria-hidden="true"></span></span> |
-            <span class="label label-info">@String.Format("{0:n0}", @Convert.ToInt32(Model.reviews.total_reviews))  ratings</span>
 
-            <br /><br />
 
-            <h4>
-                @Html.DisplayFor(model => model.prices.currency)
-                <span style="text-decoration-line:line-through">@Html.DisplayFor(model => model.prices.previous_price)</span>
-                <span style="color:red">@Html.DisplayFor(model => model.prices.current_price)</span>
-                <span class="label label-default">@Html.DisplayFor(model => model.category)</span>
-            </h4>
-
-            @Html.Raw(Model.description.Replace("\n", "<br/><br/>"))
-
-            <a href="@Html.DisplayFor(model => model.full_link)" target="_blank">@Html.DisplayFor(model => model.full_link)</a>
-            
-        </div>
 
     </div>
-
-
-   
-</div>
-<div>
-    <a asp-action="Index">Back</a>
-</div>
+}
+else
+{
+    <h2 class="text-center">Product not found</h2>
+}

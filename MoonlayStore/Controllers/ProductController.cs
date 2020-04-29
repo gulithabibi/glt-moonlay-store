@@ -25,19 +25,6 @@ namespace MoonlayStore.Controllers
 
         public async Task<IActionResult> Index()
         {
-
-            ProductViewModel products = new ProductViewModel();
-            HttpClient client = _amazonApi.Initial();
-            HttpResponseMessage res = await client.GetAsync("offers?type=LIGHTNING_DEAL&max_number=100&min_number=5&country=US");
-
-
-
-            if (res.IsSuccessStatusCode)
-            {
-                var result = res.Content.ReadAsStringAsync().Result;
-                products = JsonConvert.DeserializeObject<ProductViewModel>(result);
-            }
-
             return View();
         }
 

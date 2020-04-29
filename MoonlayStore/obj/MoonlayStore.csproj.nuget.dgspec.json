@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GULIT\\Opportunity\\moonlay\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj": {}
+    "D:\\GULIT\\Opportunity\\MoonlayTechnicalTest\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj": {}
   },
   "projects": {
-    "D:\\GULIT\\Opportunity\\moonlay\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj": {
+    "D:\\GULIT\\Opportunity\\MoonlayTechnicalTest\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GULIT\\Opportunity\\moonlay\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj",
+        "projectUniqueName": "D:\\GULIT\\Opportunity\\MoonlayTechnicalTest\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj",
         "projectName": "MoonlayStore",
-        "projectPath": "D:\\GULIT\\Opportunity\\moonlay\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj",
+        "projectPath": "D:\\GULIT\\Opportunity\\MoonlayTechnicalTest\\MoonlayStore\\MoonlayStore\\MoonlayStore.csproj",
         "packagesPath": "C:\\Users\\gulit\\.nuget\\packages\\",
-        "outputPath": "D:\\GULIT\\Opportunity\\moonlay\\MoonlayStore\\MoonlayStore\\obj\\",
+        "outputPath": "D:\\GULIT\\Opportunity\\MoonlayTechnicalTest\\MoonlayStore\\MoonlayStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gulit\\AppData\\Roaming\\NuGet\\NuGet.Config",
