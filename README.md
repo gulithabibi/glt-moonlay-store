@@ -13,6 +13,7 @@ For testing
 
 	Note:
 	* When search and show message system temporary unavailable it mean call API not success because limited access, u can try again later.
+	* if list can't open u can see detail product from this link https://localhost:port/Product/Detail/B0756WZ2V3
 	
 2. Page 2 will show list product by product search in page 1
 3. Page detail product selected.
