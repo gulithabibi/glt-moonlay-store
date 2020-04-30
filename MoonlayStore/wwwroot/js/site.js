@@ -3,8 +3,24 @@
 
 // Write your JavaScript code.
 
+jQuery(document).on("keypress", function (e) {
+    if (e.which == 13) {
+        jQuery("#search-button").click();
+    }
+})
+
 jQuery(document).ready(function (e) {
-    
+
+
+    //jQuery("#search-input").addEventListener("keyup", function () {
+    //    if (event.keyCode == 13) {
+    //        event.preventDefault();
+    //        jQuery("#search-button").click();
+    //    }
+    //});
+
+
+
     jQuery("#search-button").on("click", function () {
         var str = jQuery("#search-input").val();
         

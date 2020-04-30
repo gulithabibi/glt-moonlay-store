@@ -17,11 +17,7 @@ D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\bin\Debug\ne
 D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\MoonlayStore.TagHelpers.input.cache
 D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\MoonlayStore.TagHelpers.output.cache
 D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\MoonlayStore.RazorCoreGenerate.cache
-D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
-D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
-D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index - Copy.cshtml.g.cs
 D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Product\Detail.cshtml.g.cs
 D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Product\List.cshtml.g.cs
 D:\GULIT\Opportunity\MoonlayTechnicalTest\MoonlayStore\MoonlayStore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
